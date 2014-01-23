@@ -24,7 +24,7 @@
     question.hidden=YES;
     next.hidden=YES;
     startButton.hidden=YES;
-    a=1;
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -50,6 +50,7 @@
         N.hidden=NO;
         question.hidden=NO;
       //  startButton.hidden=NO;
+        a=1;
         
     }
 if(z.tag==2){
@@ -67,6 +68,7 @@ if(z.tag==2){
     N.hidden=NO;
     question.hidden=NO;
    // startButton.hidden=NO;
+    b=2;
   }
     if(z.tag==3){
         question.text=@"Q.3 : ~~~~~~~~~~~~?";
@@ -83,6 +85,7 @@ if(z.tag==2){
         N.hidden=NO;
        question.hidden=NO;
      //   startButton.hidden=NO;
+        c=1;
     }
     if(z.tag==4){
         question.text=@"Q.4 : ~~~~~~~~~~~~?";
@@ -99,6 +102,7 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
        // startButton.hidden=NO;
+        d=1;
     }
     if(z.tag==5){
         question.text=@"Q.5 : ~~~~~~~~~~~~?";
@@ -115,6 +119,7 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
       //  startButton.hidden=NO;
+        e=1;
     }
     if(z.tag==6){
         question.text=@"Q.6 : ~~~~~~~~~~~~?";
@@ -131,6 +136,7 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
       //  startButton.hidden=NO;
+        f=1;
     }
     if(z.tag==7){
         question.text=@"Q.7 : ~~~~~~~~~~~~?";
@@ -147,6 +153,7 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
        // startButton.hidden=NO;
+        g=1;
     }
     if(z.tag==8){
         question.text=@"Q.8 : ~~~~~~~~~~~~?";
@@ -163,6 +170,7 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
        // startButton.hidden=NO;
+        h=1;
     }
     if(z.tag==9){
         question.text=@"Q.9 : ~~~~~~~~~~~~?";
@@ -179,68 +187,126 @@ if(z.tag==2){
         N.hidden=NO;
         question.hidden=NO;
       //  startButton.hidden=NO;
+        i=1;
     }
 }
-/*
--(IBAction)start:(id)sender{
-    Y.hidden=NO;
-    N.hidden=NO;
-    question.hidden=NO;
-    startButton.hidden=YES;
-    
-    
-    if(a==1){
-    question.text=@"Q.1 : ~~~~~~~~~~~~?";
-        a++;}
-    else if(a==2)
-    question.text=@"Q.2 : ~~~~~~~~~~~~~?";
-    
-}*/
-
-
-
 
 -(IBAction)answer:(id)sender{
     UIButton *z = (UIButton *)sender;
-    if(z.tag==11 & a==0 &b==0 && c==0){
+    if(z.tag==11 & a==1 ){
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=NO;
         question.text=@"正解";
-        a=1;
-    }else if(z.tag==10 && a==0 &b==0 && c==0){
+    }else if(z.tag==10 && a==1 ){
      question.text=@"は ず　れ";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
     } 
     
-    if(z.tag==11 && a==1 &b==0 && c==0){
+    if(z.tag==11 && b==2 ){
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=NO;
         question.text=@"正解";
-        b=1;
-    }else if(z.tag==10 && a==1 &b==0 && c==0){
+    }else if(z.tag==10 && b==2){
         question.text=@"は　ず　れ";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
     }  
-    if(z.tag==11 && a==1 &b==1 && c==0){
+    if(z.tag==10 && c==1){
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=NO;
-        question.text=@"クリア";
-    }else if(z.tag==10 && a==1 &b==1 && c==1){
+        question.text=@"正解";
+    }else if(z.tag==11 && c==1){
         question.text=@"は　ず れ";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
-    }}
+    }
+        if(z.tag==11 & d==1 ){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==10 && d==1 ){
+        question.text=@"は ず　れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+    
+    if(z.tag==10 && e==1 ){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==11 && e==1){
+        question.text=@"は　ず　れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+    if(z.tag==11 && f==1){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==10 && f==1){
+        question.text=@"は　ず れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+
+    if(z.tag==10 & g==1 ){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==11 && g==1 ){
+        question.text=@"は ず　れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+    
+    if(z.tag==11 && h==1 ){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==10 && h==1){
+        question.text=@"は　ず　れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+    if(z.tag==10 && i==1){
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=NO;
+        question.text=@"正解";
+    }else if(z.tag==11 && i==1){
+        question.text=@"は　ず れ";
+        Y.hidden=YES;
+        N.hidden=YES;
+        next.hidden=YES;
+    }
+}
     
 
  -(IBAction)nextscrean:(id)sender{
+     if(   a+d+g==3||b+e+h==3||c+f+i==3
+        || a+b+c==3||d+e+f==3||g+h+i==3
+        || a+e+i==3||c+e+g==3){
+         question.hidden=NO;
+         question.text=@"ビンゴです！ゲームクリア！";
+     }
+     else {
      L.hidden=NO;
      M.hidden=NO;
      R.hidden=NO;
@@ -250,7 +316,9 @@ if(z.tag==2){
      Lunder.hidden=NO;
      Munder.hidden=NO;
      Runder.hidden=NO;
-     c=1;
+     }
+  
+     
  }
 
 
