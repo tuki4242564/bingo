@@ -50,6 +50,7 @@
         N.hidden=NO;
         question.hidden=NO;
       //  startButton.hidden=NO;
+        
     }
 if(z.tag==2){
     question.text=@"Q.2 : ~~~~~~~~~~~~~?";
