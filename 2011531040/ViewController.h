@@ -23,8 +23,7 @@
     IBOutlet UILabel *question;
     IBOutlet UIButton *Y;
     IBOutlet UIButton *N;
-    IBOutlet UILabel *right1;
-    IBOutlet UILabel *right2;
+    IBOutlet UIButton *startButton;
     IBOutlet UIButton *ResetButton;
     IBOutlet UIButton *next;
 }
@@ -32,4 +31,5 @@
     -(IBAction)answer:(id)sender;
     -(IBAction)reset:(id)sender;
 -(IBAction)nextscrean:(id)sender;
+-(IBAction)start:(id)sender;
 @end

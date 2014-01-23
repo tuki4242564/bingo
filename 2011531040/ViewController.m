@@ -22,9 +22,9 @@
     Y.hidden=YES;
     N.hidden=YES;
     question.hidden=YES;
-    right1.hidden=YES;
-    right2.hidden=YES;
     next.hidden=YES;
+    startButton.hidden=YES;
+    a=1;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -49,9 +49,9 @@
         Y.hidden=NO;
         N.hidden=NO;
         question.hidden=NO;
+      //  startButton.hidden=NO;
     }
 if(z.tag==2){
-   // right1.hidden=YES;
     question.text=@"Q.2 : ~~~~~~~~~~~~~?";
     L.hidden=YES;
     M.hidden=YES;
@@ -65,9 +65,9 @@ if(z.tag==2){
     Y.hidden=NO;
     N.hidden=NO;
     question.hidden=NO;
+   // startButton.hidden=NO;
   }
     if(z.tag==3){
-       // right1.hidden=YES;
         question.text=@"Q.3 : ~~~~~~~~~~~~?";
         L.hidden=YES;
         M.hidden=YES;
@@ -80,11 +80,121 @@ if(z.tag==2){
         Runder.hidden=YES;
         Y.hidden=NO;
         N.hidden=NO;
+       question.hidden=NO;
+     //   startButton.hidden=NO;
+    }
+    if(z.tag==4){
+        question.text=@"Q.4 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
         question.hidden=NO;
+       // startButton.hidden=NO;
+    }
+    if(z.tag==5){
+        question.text=@"Q.5 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
+        question.hidden=NO;
+      //  startButton.hidden=NO;
+    }
+    if(z.tag==6){
+        question.text=@"Q.6 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
+        question.hidden=NO;
+      //  startButton.hidden=NO;
+    }
+    if(z.tag==7){
+        question.text=@"Q.7 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
+        question.hidden=NO;
+       // startButton.hidden=NO;
+    }
+    if(z.tag==8){
+        question.text=@"Q.8 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
+        question.hidden=NO;
+       // startButton.hidden=NO;
+    }
+    if(z.tag==9){
+        question.text=@"Q.9 : ~~~~~~~~~~~~?";
+        L.hidden=YES;
+        M.hidden=YES;
+        R.hidden=YES;
+        Lover.hidden=YES;
+        Mover.hidden=YES;
+        Rover.hidden=YES;
+        Lunder.hidden=YES;
+        Munder.hidden=YES;
+        Runder.hidden=YES;
+        Y.hidden=NO;
+        N.hidden=NO;
+        question.hidden=NO;
+      //  startButton.hidden=NO;
     }
 }
-
-
+/*
+-(IBAction)start:(id)sender{
+    Y.hidden=NO;
+    N.hidden=NO;
+    question.hidden=NO;
+    startButton.hidden=YES;
+    
+    
+    if(a==1){
+    question.text=@"Q.1 : ~~~~~~~~~~~~?";
+        a++;}
+    else if(a==2)
+    question.text=@"Q.2 : ~~~~~~~~~~~~~?";
+    
+}*/
 
 
 
@@ -105,8 +215,6 @@ if(z.tag==2){
     } 
     
     if(z.tag==11 && a==1 &b==0 && c==0){
-       // right1.hidden=NO;
-        //right2.hidden=NO;
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=NO;
@@ -119,8 +227,6 @@ if(z.tag==2){
         next.hidden=YES;
     }  
     if(z.tag==11 && a==1 &b==1 && c==0){
-        //right1.hidden=YES;
-        //right2.hidden=YES;
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=NO;
@@ -152,8 +258,7 @@ if(z.tag==2){
        Y.hidden=YES;
        N.hidden=YES;
        question.hidden=YES;
-       right1.hidden=YES;
-       right2.hidden=YES;
+      
        L.hidden=NO;
        M.hidden=NO;
        R.hidden=NO;
@@ -164,6 +269,7 @@ if(z.tag==2){
        Munder.hidden=NO;
        Runder.hidden=NO;
        a=b=c=d=e=f=g=h=i=0;
+      // startButton.hidden=NO;
        
     
 }
