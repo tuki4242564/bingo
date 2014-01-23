@@ -35,8 +35,9 @@
 }
 -(IBAction)ninemove:(id)sender{
     UIButton *z = (UIButton *)sender;
+     [question setFont:[UIFont boldSystemFontOfSize:11.0f]];
     if(z.tag==1){
-        question.text=@"Q.1 : ~~~~~~~~~~~~?";
+        question.text=@"Q.1 :三森すずこの1stシングルは「ユニバーページ」である";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -54,7 +55,7 @@
         
     }
 if(z.tag==2){
-    question.text=@"Q.2 : ~~~~~~~~~~~~~?";
+    question.text=@"Q.2 :水樹奈々は本名である";
     L.hidden=YES;
     M.hidden=YES;
     R.hidden=YES;
@@ -71,7 +72,7 @@ if(z.tag==2){
     b=2;
   }
     if(z.tag==3){
-        question.text=@"Q.3 : ~~~~~~~~~~~~?";
+        question.text=@"Q.3 :田村ゆかりは17歳である　";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -88,7 +89,7 @@ if(z.tag==2){
         c=1;
     }
     if(z.tag==4){
-        question.text=@"Q.4 : ~~~~~~~~~~~~?";
+        question.text=@"Q.4 :三森すずこは本名である";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -105,7 +106,7 @@ if(z.tag==2){
         d=1;
     }
     if(z.tag==5){
-        question.text=@"Q.5 : ~~~~~~~~~~~~?";
+        question.text=@"Q.5 :LiSAの出身地は岐阜県である";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -122,7 +123,7 @@ if(z.tag==2){
         e=1;
     }
     if(z.tag==6){
-        question.text=@"Q.6 : ~~~~~~~~~~~~?";
+        question.text=@"Q.6 : LiSAは声優である";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -139,7 +140,7 @@ if(z.tag==2){
         f=1;
     }
     if(z.tag==7){
-        question.text=@"Q.7 : ~~~~~~~~~~~~?";
+        question.text=@"Q.7 : 藍井エイルは北海道出身である";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -156,7 +157,8 @@ if(z.tag==2){
         g=1;
     }
     if(z.tag==8){
-        question.text=@"Q.8 : ~~~~~~~~~~~~?";
+        [question setFont:[UIFont boldSystemFontOfSize:8.0f]];
+        question.text=@"Q.8 : 戸松遥、寿美菜子、高垣彩陽、豊崎愛生のユニット名はスフェレである";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -173,7 +175,8 @@ if(z.tag==2){
         h=1;
     }
     if(z.tag==9){
-        question.text=@"Q.9 : ~~~~~~~~~~~~?";
+        [question setFont:[UIFont boldSystemFontOfSize:10.0f]];
+        question.text=@"Q.9 : アニソンアーティスト春奈るなはKERAの読者モデルである";
         L.hidden=YES;
         M.hidden=YES;
         R.hidden=YES;
@@ -192,6 +195,7 @@ if(z.tag==2){
 }
 
 -(IBAction)answer:(id)sender{
+    [question setFont:[UIFont boldSystemFontOfSize:30.0f]];
     UIButton *z = (UIButton *)sender;
     if(z.tag==11 & a==1 ){
         Y.hidden=YES;
@@ -199,7 +203,8 @@ if(z.tag==2){
         next.hidden=NO;
         question.text=@"正解";
     }else if(z.tag==10 && a==1 ){
-     question.text=@"は ず　れ";
+          [question setFont:[UIFont boldSystemFontOfSize:18.0f]];
+     question.text=@"はずれ 「会いたいよ...会いたいよ!」";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
@@ -211,7 +216,7 @@ if(z.tag==2){
         next.hidden=NO;
         question.text=@"正解";
     }else if(z.tag==10 && b==2){
-        question.text=@"は　ず　れ";
+        question.text=@"はずれ 　「近藤」";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
@@ -233,7 +238,7 @@ if(z.tag==2){
         next.hidden=NO;
         question.text=@"正解";
     }else if(z.tag==10 && d==1 ){
-        question.text=@"は ず　れ";
+        question.text=@"はずれ　「黒川」";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
@@ -256,7 +261,8 @@ if(z.tag==2){
         next.hidden=NO;
         question.text=@"正解";
     }else if(z.tag==10 && f==1){
-        question.text=@"は　ず れ";
+          [question setFont:[UIFont boldSystemFontOfSize:15.0f]];
+        question.text=@"はずれ　「アニソンアーティスト」";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;
@@ -280,7 +286,7 @@ if(z.tag==2){
         next.hidden=NO;
         question.text=@"正解";
     }else if(z.tag==10 && h==1){
-        question.text=@"は　ず　れ";
+        question.text=@"はずれ。「スフィア」";
         Y.hidden=YES;
         N.hidden=YES;
         next.hidden=YES;

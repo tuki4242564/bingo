@@ -215,7 +215,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9sI-4o-qOd" firstAttribute="leading" secondItem="Eoi-HN-jY3" secondAttribute="leading" type="default" id="1uM-6d-BZc"/>
-                            <constraint firstItem="eUv-uR-P7V" firstAttribute="trailing" secondItem="Ofy-xr-LAe" secondAttribute="trailing" type="default" id="3bn-Ge-JPU"/>
                             <constraint firstItem="Ofy-xr-LAe" firstAttribute="baseline" secondItem="tTZ-i2-28D" secondAttribute="baseline" type="default" id="6ym-1r-unD"/>
                             <constraint firstItem="hGG-ok-gto" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="38" id="Bt1-Ka-4IO"/>
                             <constraint firstItem="xN1-OI-GPN" firstAttribute="top" secondItem="3" secondAttribute="top" constant="110" id="CvC-1K-QB4"/>
@@ -224,13 +223,13 @@
                             <constraint firstItem="D47-CP-x3E" firstAttribute="baseline" secondItem="Eoi-HN-jY3" secondAttribute="baseline" type="default" id="HPx-EE-FUI"/>
                             <constraint firstItem="zG8-fM-g3r" firstAttribute="baseline" secondItem="cS8-03-iEw" secondAttribute="baseline" type="default" id="IPR-wD-c7j"/>
                             <constraint firstItem="Lic-lk-9Mt" firstAttribute="baseline" secondItem="Eoi-HN-jY3" secondAttribute="baseline" type="default" id="NHN-9c-XWo"/>
+                            <constraint firstAttribute="trailing" secondItem="eUv-uR-P7V" secondAttribute="trailing" constant="32" id="PnJ-i4-EzP"/>
                             <constraint firstItem="uxY-ua-62y" firstAttribute="baseline" secondItem="9sI-4o-qOd" secondAttribute="baseline" type="default" id="RA5-xs-6rP"/>
                             <constraint firstItem="zit-CM-Yie" firstAttribute="top" secondItem="3" secondAttribute="top" constant="125" id="Sec-pQ-yZb"/>
                             <constraint firstItem="zit-CM-Yie" firstAttribute="centerX" secondItem="Eoi-HN-jY3" secondAttribute="centerX" type="default" id="UUn-oD-mPG"/>
                             <constraint firstItem="9sI-4o-qOd" firstAttribute="baseline" secondItem="xN1-OI-GPN" secondAttribute="baseline" type="default" id="XX1-qd-Yh1"/>
                             <constraint firstAttribute="bottom" secondItem="cS8-03-iEw" secondAttribute="bottom" constant="137" id="Xts-zY-4A5"/>
                             <constraint firstItem="ula-wV-imB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="16" id="Z6g-Pr-ts7"/>
-                            <constraint firstAttribute="trailing" secondItem="uxY-ua-62y" secondAttribute="trailing" constant="32" id="ZmJ-zF-Mea"/>
                             <constraint firstAttribute="bottom" secondItem="hGG-ok-gto" secondAttribute="bottom" constant="44" id="bEc-8d-YWx"/>
                             <constraint firstItem="Mou-DM-Hrj" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="fJw-ro-pyq"/>
                             <constraint firstItem="cS8-03-iEw" firstAttribute="centerX" secondItem="hGG-ok-gto" secondAttribute="centerX" type="default" id="hOc-wC-f8p"/>
@@ -243,6 +242,7 @@
                             <constraint firstItem="eUv-uR-P7V" firstAttribute="baseline" secondItem="zG8-fM-g3r" secondAttribute="baseline" type="default" id="sUb-gg-ZCD"/>
                             <constraint firstItem="Eoi-HN-jY3" firstAttribute="leading" secondItem="zG8-fM-g3r" secondAttribute="leading" type="default" id="uMu-bb-cmr"/>
                             <constraint firstItem="tTZ-i2-28D" firstAttribute="baseline" secondItem="hGG-ok-gto" secondAttribute="baseline" type="default" id="vce-b4-uqj"/>
+                            <constraint firstAttribute="trailing" secondItem="Ofy-xr-LAe" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ym4-eK-tH9"/>
                             <constraint firstItem="cS8-03-iEw" firstAttribute="leading" secondItem="D47-CP-x3E" secondAttribute="leading" type="default" id="zny-rf-l01"/>
                         </constraints>
                     </view>

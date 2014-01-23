@@ -30,6 +30,6 @@
     -(IBAction)ninemove:(id)sender;
     -(IBAction)answer:(id)sender;
     -(IBAction)reset:(id)sender;
--(IBAction)nextscrean:(id)sender;
--(IBAction)start:(id)sender;
+    -(IBAction)nextscrean:(id)sender;
+    -(IBAction)start:(id)sender;
 @end
